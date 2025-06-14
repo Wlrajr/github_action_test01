@@ -21,3 +21,8 @@ jobs:
             - name: Hello World
             # 실제 코드 (명령어)
               run: echo "Hello World"
+
+            - name: 여러 명령어 문장 작성하기
+              run: 
+                echo "good"
+                echo "morning"
