@@ -23,6 +23,11 @@ jobs:
               run: echo "Hello World"
 
             - name: 여러 명령어 문장 작성하기
-              run: 
+              run: |
                 echo "good"
                 echo "morning"
+
+            - name: github actions 자체에 저장되어 있는 변수 사용하기
+              run: |
+                echo $GITHUB_SHA
+                echo $GITHUB_REPOSITORY
